@@ -51,7 +51,7 @@ class game {
     scanned.loadPixels();
     //////////////SOUND SHIT/////////////////////
     minim = new Minim(pa); // load a file, give the AudioPlayer buffers that are 2048 samples long
-    player = minim.loadFile("LittleHappies2.wav", 2048);
+    player = minim.loadFile("LittleHappies.aif", 2048);
     cdplayer = minim.loadFile("countCAM.wav", 2048);
     //  magic = minim.loadFile("magic_2.wav", 2048);
 

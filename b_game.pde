@@ -128,7 +128,7 @@ class game {
       // sendMail(stringscore);
      // tweet(stringscore);
       image(k, 0, 0);
-      save("/Users/littlehappies/Documents/processing3/littlehappies_twitter/data/tweets/"+timestamp+"_Score:"+stringscore+".jpg"); 
+      save(sketchPath() + "/data/tweets/Indiecade East 2016 Score:"+stringscore+"%.jpg"); 
       phase++;
       // checkGameTimer(10000);
     }
@@ -138,7 +138,7 @@ class game {
       PImage n;
       n = loadImage("gamepic.jpg");
       image(n, 0, 0);
-      save(timestamp+"_"+stringscore+"%.jpg"); 
+      save(stringscore+"%.jpg"); 
       phase ++;
     } else if (phase == 10) {
       stop();
